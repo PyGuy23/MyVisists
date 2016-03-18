@@ -14,6 +14,7 @@
 		B2D958C81C9C97F400A49902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D958C61C9C97F400A49902 /* LaunchScreen.storyboard */; };
 		B2D958D31C9C97F400A49902 /* MyVisistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D958D21C9C97F400A49902 /* MyVisistsTests.swift */; };
 		B2D958DE1C9C97F400A49902 /* MyVisistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D958DD1C9C97F400A49902 /* MyVisistsUITests.swift */; };
+		B2D958EC1C9C981700A49902 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D958EB1C9C981700A49902 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B2D958D91C9C97F400A49902 /* MyVisistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVisistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D958DD1C9C97F400A49902 /* MyVisistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVisistsUITests.swift; sourceTree = "<group>"; };
 		B2D958DF1C9C97F400A49902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D958EB1C9C981700A49902 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D958EC1C9C981700A49902 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		B2D958B11C9C97F400A49902 = {
 			isa = PBXGroup;
 			children = (
+				B2D958EB1C9C981700A49902 /* CoreLocation.framework */,
 				B2D958BC1C9C97F400A49902 /* MyVisists */,
 				B2D958D11C9C97F400A49902 /* MyVisistsTests */,
 				B2D958DC1C9C97F400A49902 /* MyVisistsUITests */,
